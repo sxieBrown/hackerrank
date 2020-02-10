@@ -1,0 +1,9 @@
+def oddNumbers(l, r):
+    ary = []
+    for i in range(l,r+1):
+        if(i%2!=0):
+            ary.append(i)
+    return ary
+    
+    # generate an array and learn how to use .append
+    # the upper limit need to add 1

@@ -1,0 +1,14 @@
+def findNumber(arr, k):
+    b=0
+    for i in range(0,len(arr)):
+        if k == arr[i]:
+            b=b+1
+    if b>0:
+        a="YES"
+    else:
+        a="NO"
+    return(a)
+    
+    # no return after b=b+1
+    # len(arr) instead of len(arr)-1
+    # return a string is very important information.
